@@ -1,0 +1,9 @@
+COMANDOS DENTRO DEL REPOSITORIO:
+*git status : indica el estado de los archivos que hay dentro (si aparece el nombre en rojo el archivo esta dentro del worked directory)
+*git add "nombre archivo" : agrega el archivo descrito al stage (zona intermedia a la espera de ser confirmado)
+*git rm --cached "nombreArchivo" : saca el archivo del stage
+*git add -A : agrega al stage todos los archivos que esten listos
+*git rm -f "nombreArchivo" : saca el archivo del stage y lo borra definitivamente
+*git add -n "nombreArchivo" : confirma si el archivo existe
+*git commit -m "nombreMensaje(con comillas simples)" : confirma lo que haya en el stage y lo envia al respositorio
+*git commit -m "mensajepocional(con comillas)" --amend : concatena un nuevo cambio con uno ya realizado
